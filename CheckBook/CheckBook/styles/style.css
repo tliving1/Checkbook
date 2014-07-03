@@ -1,0 +1,294 @@
+/* 	This website template was created by myself Manjeet Singh Sawhney (http://www.manjeetss.com)
+	You are free to copy, distribute and adapt any of the work under the following condition:
+	You must attribute the work by keeping the "Designed by Manjeet Singh Sawhney" link in the footer.
+	If you wish, you can remove the footer link by paying a small fee of only $5. For this please drop me an e-mail to manjeetss@gmail.com with your details and I will then send you my PayPal account details. Thanks.	
+*/
+
+body 
+{
+	margin: 0 auto;
+	padding: 0;
+	font-family: Arial, Tahoma, Times New Roman;
+	font-size: 12px;
+}
+
+#page
+{
+	background: #fff;
+	color: #777;
+	margin: 0 auto;
+	padding: 0 10px;	
+	width: 660px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;	
+}
+
+#header 
+{
+	clear: both;
+	padding-top: 10px;
+}
+
+#slogan
+{
+	font-style: italic;
+	margin: 17px 0 0 400px;
+}
+
+#topmenu 
+{
+    margin-top:5px;
+	clear: both;
+	width: 660px;
+	height: 26px;
+	background-color: #036;
+	/*margin: 0;*/	
+	font: bolder 12px/26px Arial, Tahoma, Times New Roman;
+}
+
+#topmenu ul
+{
+	margin: 0; 
+	padding: 0;
+}
+
+#topmenu ul li 
+{
+	float: left;
+	list-style: none;		
+}
+
+#topmenu ul li a 
+{
+	display: block;
+	text-decoration: none;	
+	padding: 0 10px;
+	background: inherit;
+	color: #fff;
+}
+
+#topmenu ul li a:hover
+{
+	background: #fff; 
+	background-color: #f60;  
+}
+
+#topmenu ul li a#selected
+{		
+	background-color: #f60;	
+}
+
+#leftmenu 
+{
+	clear: left;
+	float: left;
+	width: 150px;
+	margin: 20px 0;
+	padding: 0;
+	font-size: 12px;
+}
+
+#leftmenu p.newstext
+{
+	line-height: 17px;
+}
+
+#leftmenu ul 
+{	
+	list-style: none;
+	width: 150px;
+	margin: 0 0 20px 0;
+	padding: 0;			
+}	
+
+#leftmenu li 
+{
+	margin-bottom: 4px;
+}
+
+#leftmenu li a 
+{
+	font-weight: bold;
+	height: 20px;
+	display: block;	
+	text-decoration: none;
+	color: #036;
+	padding: 6px 0 0 10px;
+	background: #eee;
+	border-right: 3px solid #036;
+}	
+	
+#leftmenu li a:hover 
+{	
+	color: #f60;
+	border-right: 3px solid #f60;
+}
+
+#leftmenu a
+{
+	font-weight: bold;
+}
+
+#contentHomePage 
+{
+	margin: 20px 0 20px 115px;		
+	padding: 0 10px 0 10px;
+	line-height: 20px;
+	text-align: left;
+}
+
+#content 
+{
+	margin: 20px 0 20px 160px;		
+	padding: 0 10px 0 10px;
+	line-height: 20px;
+	text-align: left;
+}
+
+.note
+{ 
+	float: left; 
+	padding: 5px 15px;
+	background-color: #ddd;
+	margin: 20px 0;
+	font-weight: bold;
+	font-style: italic;
+	border: 1px solid #036;
+}
+
+.red
+{
+	color: #f00;
+}
+
+.line
+{
+	border-bottom: 1px solid #ddd;
+}
+
+a 
+{
+	text-decoration: none;
+	color: #036;
+}
+
+a:hover 
+{	
+	color: #f60;
+}
+
+h1 
+{	
+	margin: 0 0 10px 0;
+	float: left;
+	font-size: 30px;	
+}
+
+h2 
+{
+	font-size: 22px;
+	color: #036;
+	margin: 0 0 7px 0;
+}
+
+h3 
+{
+	font-size: 18px;
+	color: #f60;
+	margin: 0 0 7px 0;
+}
+
+h4 
+{
+	font-size: 16px;
+	color: #f60;
+	margin: 0 0 10px 0;
+}
+
+h5 
+{
+	font-size: 14px;
+	color: #f60;
+	margin: 0 0 10px 0;
+}
+
+h6
+{
+	font-size: 12px;
+	color: #f60;
+	margin: 0 0 10px 0;
+}
+
+ol
+{
+	list-style-type: decimal;
+}
+
+ul
+{
+	list-style-type: square;
+}
+
+/*table 
+{ 		
+	width: 100%;	
+	text-align: center;
+}
+
+th
+{
+	background-color: #ddd;
+	color: #036;
+}
+
+td
+{
+	background-color: #eee;
+}*/
+
+#footer 
+{
+	clear: both;
+	margin: 0 auto;
+	padding: 10px 0 20px 0;
+	border-top: 1px solid #ccc;
+	font-size: 12px;	
+	font-weight: bold;
+	text-align: center;	
+
+}
+
+.FormLeftColumn ul
+{
+    width:200px;
+    padding:0px 30px 0px 0px;
+    margin-right:10px;
+    font-size:.9em;
+    text-align:left;
+}
+
+.FormRightColumn ul
+{
+    width:200px;
+    padding:0px 30px 0px 0px;
+    margin-right:10px;
+    font-size:.9em;
+    text-align:left;
+}
+
+.FormLeftColumn
+{
+    float:left;
+}
+
+.FormRightColumn
+{
+    float:left;
+    margin-bottom:30px;
+}
+
+ul li
+{
+    list-style-image:none;
+    list-style-type:none;
+}

@@ -1,0 +1,11 @@
+C:\Applications\CheckBook\CheckBook\bin\CheckBook.dll
+C:\Applications\CheckBook\CheckBook\bin\CheckBook.pdb
+C:\Applications\CheckBook\CheckBook\obj\Debug\CheckBook.dll
+C:\Applications\CheckBook\CheckBook\obj\Debug\CheckBook.pdb
+C:\Applications\CheckBook\CheckBook\bin\Checkbook.Business.dll
+C:\Applications\CheckBook\CheckBook\bin\Checkbook.Data.dll
+C:\Applications\CheckBook\CheckBook\bin\Wrox.WebModules.Core.dll
+C:\Applications\CheckBook\CheckBook\bin\Checkbook.Business.pdb
+C:\Applications\CheckBook\CheckBook\bin\Checkbook.Data.pdb
+C:\Applications\CheckBook\CheckBook\bin\Wrox.WebModules.Core.pdb
+C:\Applications\CheckBook\CheckBook\obj\Debug\CheckBook.csprojResolveAssemblyReference.cache

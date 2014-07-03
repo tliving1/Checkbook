@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Checkbook.master.cs" Inherits="CheckBook.Masterpage.Checkbook" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title><asp:ContentPlaceHolder ID="title" runat="server"/></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <%--<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="description of page" />
+	<meta name="keywords" content="keywords of site" />
+	<meta name="author" content="name of author - Manjeet Singh Sawhney www.manjeetss.com" />--%>
+    <link rel="stylesheet" type="text/css" href="../styles/style.css" media="screen"/>
+    <%--<script src="../Scripts/jquery-1.4.1.js" type="text/javascript" />--%>
+</head>
+<body>
+<div id="page">
+ <form id="form1" runat="server">
+   <asp:ScriptManager ID="ScriptManager1" runat="server" />
+        <div id="header">
+			<h1>Livingston's Checkbook</h1>
+			<div id="slogan">...where are money go?</div>
+		</div>
+        <img src="images/oraGlen.jpg" alt="top image" />
+        <div id="topmenu">
+           <ul>					
+				<li><a id="selected" href="http://www.manjeetss.com/websitetemplates.html">Website Templates</a></li>
+				<li><a href="http://www.manjeetss.com/knowledgebase.html">New Transaction</a></li>
+				<li><a href="http://www.manjeetss.com/fitnessnutrition.html">Fitness &amp; Nutrition</a></li>
+				<li><a href="http://www.manjeetss.com/cvadvice.html">CV Advice</a></li>
+			</ul>
+        </div>
+        <div id="leftmenuDiv" runat="server">
+            <div id="leftmenu">
+			    <ul>
+				    <li><a href="http://www.manjeetss.com/websitetemplates.html">Website Templates</a></li>
+				    <li><a href="http://www.manjeetss.com/knowledgebase.html">Knowledge Base</a></li>
+				    <li><a href="http://www.manjeetss.com/fitnessnutrition.html">Fitness &amp; Nutrition</a></li>
+				    <li><a href="http://www.manjeetss.com/cvadvice.html">CV Advice</a></li>
+			    </ul>	
+            </div>
+        </div>
+
+        <div id="content" runat="server">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
+         </div>
+
+        <div id="footer">
+        </div>
+    
+    
+    
+    </form></div>
+</body>
+</html>
