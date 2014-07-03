@@ -5,3 +5,9 @@ C:\Applications\CheckBook\Checkbook.Data\bin\Debug\Wrox.WebModules.Core.pdb
 C:\Applications\CheckBook\Checkbook.Data\obj\Debug\Checkbook.Data.dll
 C:\Applications\CheckBook\Checkbook.Data\obj\Debug\Checkbook.Data.pdb
 C:\Applications\CheckBook\Checkbook.Data\obj\Debug\Checkbook.Data.csprojResolveAssemblyReference.cache
+C:\Users\Jennifer\Documents\GitHub\Checkbook\CheckBook\Checkbook.Data\bin\Debug\Checkbook.Data.dll
+C:\Users\Jennifer\Documents\GitHub\Checkbook\CheckBook\Checkbook.Data\bin\Debug\Checkbook.Data.pdb
+C:\Users\Jennifer\Documents\GitHub\Checkbook\CheckBook\Checkbook.Data\bin\Debug\Wrox.WebModules.Core.pdb
+C:\Users\Jennifer\Documents\GitHub\Checkbook\CheckBook\Checkbook.Data\obj\Debug\Checkbook.Data.csprojResolveAssemblyReference.cache
+C:\Users\Jennifer\Documents\GitHub\Checkbook\CheckBook\Checkbook.Data\obj\Debug\Checkbook.Data.dll
+C:\Users\Jennifer\Documents\GitHub\Checkbook\CheckBook\Checkbook.Data\obj\Debug\Checkbook.Data.pdb

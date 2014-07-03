@@ -10,19 +10,19 @@ namespace CheckBook
 {
     public partial class Transactions : System.Web.UI.Page
     {
-        Checkbook.Business.Transaction transaction;
+        Checkbook.Business.Transaction transaction = new Checkbook.Business.Transaction();
         DataTable dt;
         protected void Page_Load(object sender, EventArgs e)
         {
-            transaction = new Checkbook.Business.Transaction();
             GridView1.PageSize = 10;
             GridView1.PagerSettings.Mode = PagerButtons.NumericFirstLast;
             GridView1.RowStyle.HorizontalAlign = HorizontalAlign.Center;
-            dt = transaction.GetAllTransactions();
+            BindList();
         }
 
         private void BindList()
         {
+            dt = transaction.GetAllTransactions();
             GridView1.DataSource = dt;
             GridView1.DataBind(); 
         }
