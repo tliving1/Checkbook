@@ -10,6 +10,14 @@ Checkbook - Transactions
         <asp:ListItem Text="All Transactions" Value="All" Selected="True" />
         <asp:ListItem Text="Pending Transactions"  Value="Pending" />
     </asp:RadioButtonList>
+    <hr />
+    <br />
+        <div style="margin-top:-20px;margin-left:210px;">Results per page: 
+            <asp:DropDownList ID="drpdownResults" runat="server" AutoPostBack="true">
+                <asp:ListItem Text="10" Value="10" />
+                <asp:ListItem Text="50" Value="50" />
+            </asp:DropDownList>
+        </div>
     <asp:UpdatePanel ID="UpdatePanel1" runat="server">
         <ContentTemplate>
             <asp:GridView ID="GridView1" runat="server" AllowPaging="true" AllowSorting="true" AlternatingRowStyle-BackColor="Aqua" AutoGenerateColumns="false">

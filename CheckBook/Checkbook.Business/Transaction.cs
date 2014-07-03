@@ -73,7 +73,14 @@ namespace Checkbook.Business
                 DataRow newRow = newDt.NewRow();
                 newRow["TransactionID"] = dr["TransactionID"];
                 newRow["TransactionOccured"] = DateTime.Parse(dr["TransactionOccured"].ToString()).ToShortDateString();
-                newRow["Amount"] = "$" + (dr["Amount"]);
+                if (dr["DebitOrCredit"].ToString() == "Debit")
+                {
+                    newRow["Amount"] = "($" + (dr["Amount"]) + ")";
+                }
+                else
+                {
+                    newRow["Amount"] = "$" +(dr["Amount"]);
+                }
                 if (dr["TransactionCleared"].ToString() == "t")
                 {
                     newRow["TransactionCleared"] = true;
