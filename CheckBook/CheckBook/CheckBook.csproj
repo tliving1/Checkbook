@@ -67,6 +67,10 @@
     <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.4.1.js" />
     <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\jssor.core.js" />
+    <Content Include="Scripts\jssor.slider.js" />
+    <Content Include="Scripts\jssor.utils.js" />
     <Content Include="styles\style.css" />
     <Content Include="Transaction.aspx" />
     <Content Include="Transactions.aspx" />
