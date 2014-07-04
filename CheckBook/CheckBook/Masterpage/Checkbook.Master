@@ -73,7 +73,7 @@
         </div>
 
         <!-- Slides Container -->
-        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 660px; height: 300px;
+        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 660px; height: 140px;
             overflow: hidden;">
             <div>
                 <img src="images/oraGlen.jpg" alt="top image" />
@@ -85,8 +85,8 @@
         </div>
         <div id="topmenu">
            <ul>					
-				<li><a id="selected" href="http://www.manjeetss.com/websitetemplates.html">Website Templates</a></li>
-				<li><a href="http://www.manjeetss.com/knowledgebase.html">New Transaction</a></li>
+				<li><a href="Index.aspx" id="selected">Home</a></li>
+				<li><a href="Transactions.aspx">Transactions</a></li>
 				<li><a href="http://www.manjeetss.com/fitnessnutrition.html">Fitness &amp; Nutrition</a></li>
 				<li><a href="http://www.manjeetss.com/cvadvice.html">CV Advice</a></li>
 			</ul>
@@ -94,7 +94,7 @@
         <div id="leftmenuDiv" runat="server">
             <div id="leftmenu">
 			    <ul>
-				    <li><a href="http://www.manjeetss.com/websitetemplates.html">Website Templates</a></li>
+				    <li><a  href="http://www.manjeetss.com/websitetemplates.html">Website Templates</a></li>
 				    <li><a href="http://www.manjeetss.com/knowledgebase.html">Knowledge Base</a></li>
 				    <li><a href="http://www.manjeetss.com/fitnessnutrition.html">Fitness &amp; Nutrition</a></li>
 				    <li><a href="http://www.manjeetss.com/cvadvice.html">CV Advice</a></li>

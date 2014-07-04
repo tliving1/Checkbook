@@ -62,6 +62,7 @@
     </Content>
     <Content Include="Default.aspx" />
     <Content Include="images\header.jpg" />
+    <Content Include="images\loading.gif" />
     <Content Include="images\oraGlen.jpg" />
     <Content Include="Index.aspx" />
     <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
